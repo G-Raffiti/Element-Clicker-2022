@@ -1,5 +1,5 @@
 # Elemental Clicker: Pathways of Power
-[Try the Demo Here !]([https://www.google.com](https://g-raffiti.itch.io/elemental-clicker) (the game is not finished and bugs can be found)
+[Try the Demo Here !](https://g-raffiti.itch.io/elemental-clicker) (the game is not finished and bugs can be found)
 
  <p align="center">
 <img height="500" alt="Play on computer and see multiple Screen at once" src="/README_Files/Clicker2022-intro.gif" title="Element Clicker Intro">
