@@ -21,16 +21,26 @@ namespace Managers
 
         private Resource _degen = new Resource();
         public static event Action eOnTotemOff;
-        public static event Action<Resource> eOnDegenUpdated; 
+        public static event Action<Resource> eOnDegenUpdated;
+        
+        private float _tick;
 
         private void Start()
         {
-            StartCoroutine(Produce());
+            //StartCoroutine(Produce());
             Building.eOnProductionChanged += UpdateProduction;
             SpecialUpgradeFactors.eOnBankValueChange += UpdateDegen;
             SettingsUI.eOnTickRateChange += UpdateProduction;
             Totem.eOnSwitch += UpdateDegen;
             Clover.Clover.eLuckyProductionMultiForTime += StartBoost;
+        }
+
+        private void Update()
+        {
+            _tick -= Time.deltaTime;
+            if (_tick > 0) return;
+            _tick = Settings.Instance.Tick;
+            Bank.Produce(_productionOnTick - _degen);
         }
 
         private IEnumerator Produce()
@@ -63,8 +73,8 @@ namespace Managers
         private void StartBoost(float multiplier, float time)
         {
             _cloverBoost *= multiplier;
-            StartCoroutine(Boost(multiplier, time));
             UpdateProduction();
+            StartCoroutine(Boost(multiplier, time));
         }
 
         private IEnumerator Boost(float multiplier, float time)
