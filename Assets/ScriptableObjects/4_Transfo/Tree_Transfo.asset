@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193719cbba674465a04ed7aa99dfffec, type: 3}
+  m_Name: Tree_Transfo
+  m_EditorClassIdentifier: 
+  _upgrades:
+  - {fileID: 11400000, guid: fcedbb78a7161a946b9d2d2601cbfc3a, type: 2}
+  - {fileID: 11400000, guid: 73d57512d9150f046b4d0c836d600d15, type: 2}
+  - {fileID: 11400000, guid: 803f86d2a5f3ff34da18989752523ceb, type: 2}
+  - {fileID: 11400000, guid: 648da4c343bb59144a98364e403dc0c7, type: 2}
+  - {fileID: 11400000, guid: c8ad19a440f901e49ad7d38f8decd803, type: 2}
+  - {fileID: 11400000, guid: 2058dce0a406c0b47b92094dbb198275, type: 2}
+  - {fileID: 11400000, guid: 3f78dff99d415e14190e54d64e6dcc5f, type: 2}

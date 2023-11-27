@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40953fe8df68409889e69196b386f57f, type: 3}
+  m_Name: Temple_13_Upgrade_Multi_Explosif
+  m_EditorClassIdentifier: 
+  _number: 13
+  _needed: 0c0000000e000000
+  _icon: {fileID: 21300000, guid: 9e9a5f747fedc9d4c842ac680fb7bbc7, type: 3}
+  _upgradeName: Explosif Temple
+  _maxLvl: 3
+  color: {r: 1, g: 1, b: 1, a: 1}
+  symbol: {fileID: 0}
+  Description: boost (x3) <sprite name=rage> & <sprite name=air>productions while
+    reduce (x0.5) all <sprite name=time> & <sprite name=tech> productions
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _upgrades:
+  - {fileID: 11400000, guid: 447213d125e6df94288767e059cc6142, type: 2}
+  - {fileID: 11400000, guid: d90e9e581128ead48adce7fb5e5eb9e5, type: 2}

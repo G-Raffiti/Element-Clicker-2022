@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f183a4f15c9d42e692bdbde02ac94ddd, type: 3}
+  m_Name: Cornucopia_00_Upgrade_Production_Earth
+  m_EditorClassIdentifier: 
+  _number: 0
+  _needed: 
+  _icon: {fileID: -1771104736, guid: 7b832a1a2d725b94bac894ed8b80edc6, type: 3}
+  _upgradeName: Produce Earth
+  _maxLvl: 99
+  color: {r: 1, g: 0.7529412, b: 0, a: 1}
+  symbol: {fileID: 0}
+  Description: + <sprite name=earth>/s per Cornucopia's Level.
+  _addedCost:
+    list:
+    - Key: 4
+      Value: {x: 7, y: 0}
+    - Key: 1
+      Value: {x: -7, y: 0}
+    - Key: 2
+      Value: {x: -7, y: 0}
+    - Key: 3
+      Value: {x: -7, y: 0}
+    keyCollision: 0
+  _productions:
+    list:
+    - Key: 4
+      Value: {x: 1, y: 1, z: 0}
+    keyCollision: 0

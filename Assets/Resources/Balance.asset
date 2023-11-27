@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1b0af0fade432d929ca1ce41b9ee0d, type: 3}
+  m_Name: Balance
+  m_EditorClassIdentifier: 
+  upgradeMaxStockFactor: 2.5
+  upgradeMaxStockCost: 0.75
+  _maxBankStock:
+    list:
+    - Key: 0
+      Value: {x: 1, y: 2}
+    - Key: 1
+      Value: {x: 1, y: 0}
+    - Key: 2
+      Value: {x: 1, y: 0}
+    - Key: 3
+      Value: {x: 1, y: 0}
+    - Key: 4
+      Value: {x: 1, y: 0}
+    - Key: 5
+      Value: {x: 1, y: 0}
+    - Key: 6
+      Value: {x: 1, y: 0}
+    - Key: 7
+      Value: {x: 1, y: 0}
+    - Key: 8
+      Value: {x: 1, y: 3}
+    - Key: 9
+      Value: {x: 1, y: 1}
+    - Key: 10
+      Value: {x: 2, y: 1}
+    - Key: 11
+      Value: {x: 1, y: 3}
+    keyCollision: 0
+  upgradeLvlFactor: 1.15
+  levelPerPassivePoint: 10
+  upgradeLvlFactorOnStep: 3
+  levelPerStep: 25
+  _timeOnClick:
+    _value: -2
+    _exp: -1
+  _buildingToUnlock:
+  - building: {fileID: 11400000, guid: ada4be7becd76e144ba7f08da2fd8c3d, type: 2}
+    resource: 11
+    value:
+      _value: 7.7
+      _exp: 1
+  - building: {fileID: 11400000, guid: ce3644a941a77eb42b732bdc8cc144cd, type: 2}
+    resource: 0
+    value:
+      _value: 1
+      _exp: 1

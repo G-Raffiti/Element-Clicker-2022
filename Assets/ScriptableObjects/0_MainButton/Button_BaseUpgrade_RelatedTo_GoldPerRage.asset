@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0321a5a68181472cb03275b7b3e670dd, type: 3}
+  m_Name: Button_BaseUpgrade_RelatedTo_GoldPerRage
+  m_EditorClassIdentifier: 
+  _number: 0
+  _needed: 
+  _icon: {fileID: 0}
+  _upgradeName: 
+  _maxLvl: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  symbol: {fileID: 0}
+  Description: 
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _ratio:
+    list:
+    - Key: 0
+      Value: {x: 0, y: 0.01, z: 0}
+    - Key: 1
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 2
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 3
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 4
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 5
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 6
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 7
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 8
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 9
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 10
+      Value: {x: 0, y: 0, z: 0}
+    - Key: 11
+      Value: {x: 0, y: 0, z: 0}
+    keyCollision: 0
+  _relatedTo: 7

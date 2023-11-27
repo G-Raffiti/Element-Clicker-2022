@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0321a5a68181472cb03275b7b3e670dd, type: 3}
+  m_Name: Temple_08_Upgrade_RelatedTo_Time
+  m_EditorClassIdentifier: 
+  _number: 8
+  _needed: 040000000f00000009000000
+  _icon: {fileID: 73146467, guid: 7b832a1a2d725b94bac894ed8b80edc6, type: 3}
+  _upgradeName: Affected By Compressed Time
+  _maxLvl: 99
+  color: {r: 0.2901961, g: 0.58431375, b: 0.69803923, a: 1}
+  symbol: {fileID: 0}
+  Description: All Productions are Affected by the Amount of Time Collected (1%)
+  _addedCost:
+    list:
+    - Key: 2
+      Value: {x: 5, y: 0}
+    keyCollision: 0
+  _ratio:
+    list: []
+    keyCollision: 0
+  _relatedTo: 6

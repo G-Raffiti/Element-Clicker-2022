@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2265353416fc42ab9d72b80ed2ea107b, type: 3}
+  m_Name: Temple_12_Upgrade_ToClick
+  m_EditorClassIdentifier: 
+  _number: 12
+  _needed: 070000000b0000000d000000
+  _icon: {fileID: 21300000, guid: a2a192ba387d19c43b489f1f130e673e, type: 3}
+  _upgradeName: Production/s to Production/click
+  _maxLvl: 10
+  color: {r: 1, g: 1, b: 0.752, a: 1}
+  symbol: {fileID: 0}
+  Description: 10% of the Temple Production/s will be gain on Click, the Temple produce
+    10% less /s
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _ratio: 0.1

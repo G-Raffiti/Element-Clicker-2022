@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f08e2a9520d4bbca6d0f985bc108319, type: 3}
+  m_Name: Button_06_Upgrade_Chance_Nature
+  m_EditorClassIdentifier: 
+  _number: 6
+  _needed: 02000000
+  _icon: {fileID: 21300000, guid: 87ac14f2f329f2e439391dadcda7a795, type: 3}
+  _upgradeName: Naturel Luck
+  _maxLvl: 99
+  color: {r: 0, g: 0.4528302, b: 0.10228233, a: 1}
+  symbol: {fileID: 21300000, guid: 990303627f92a974784bed38e19715cd, type: 3}
+  Description: + 10% Chance to find <sprite name=nature>
+  _addedCost:
+    list: []
+    keyCollision: 0
+  value: 10
+  resource: 01000000

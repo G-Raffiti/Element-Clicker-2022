@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f230914cea4b69b03da55f9270496f, type: 3}
+  m_Name: Temple_03_Upgrade_ProdOnClick_Rage
+  m_EditorClassIdentifier: 
+  _number: 3
+  _needed: 
+  _icon: {fileID: 56566648, guid: 7b832a1a2d725b94bac894ed8b80edc6, type: 3}
+  _upgradeName: Anger
+  _maxLvl: 99
+  color: {r: 1, g: 0.7529412, b: 0, a: 1}
+  symbol: {fileID: 0}
+  Description: +1 <sprite name=rage> /click per Temple Level.
+  _addedCost:
+    list:
+    - Key: 3
+      Value: {x: 5, y: 0}
+    keyCollision: 0
+  _onClick:
+    list:
+    - Key: 7
+      Value: {x: 1, y: 1, z: 0}
+    keyCollision: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab9c7b20c6042349ef8f10ec53ca0a3, type: 3}
+  m_Name: Building_MainButton
+  m_EditorClassIdentifier: 
+  buildingName: Clicks
+  icon: {fileID: 2084549395, guid: 7b832a1a2d725b94bac894ed8b80edc6, type: 3}
+  hasCostSteps: 0
+  baseCost:
+    list:
+    - Key: 0
+      Value: {x: 111, y: 0}
+    - Key: 11
+      Value: {x: 7, y: 0}
+    keyCollision: 0
+  baseProduction:
+    list:
+    - Key: 0
+      Value: {x: 1, y: 1, z: 1}
+    keyCollision: 0
+  tree: {fileID: 11400000, guid: c12a7d267badae042b4f974873862947, type: 2}
+  baseUpgrades:
+  - {fileID: 11400000, guid: 21fead4f38c63ce44bf9f698bb510eb6, type: 2}
+  - {fileID: 11400000, guid: 8d514f4cb136b4949b49a598020f3276, type: 2}
+  passivePoint: 0

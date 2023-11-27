@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab9c7b20c6042349ef8f10ec53ca0a3, type: 3}
+  m_Name: Building_Mine
+  m_EditorClassIdentifier: 
+  buildingName: Mine
+  icon: {fileID: -264808950, guid: 7b832a1a2d725b94bac894ed8b80edc6, type: 3}
+  hasCostSteps: 1
+  baseCost:
+    list:
+    - Key: 0
+      Value: {x: 15, y: 0}
+    keyCollision: 0
+  baseProduction:
+    list:
+    - Key: 0
+      Value: {x: 1, y: 1, z: 0}
+    keyCollision: 0
+  tree: {fileID: 11400000, guid: 5f63277a46477024494e92b4c9a9a348, type: 2}
+  baseUpgrades:
+  - {fileID: 11400000, guid: b97ed3d1d44808b40911c5709791f02c, type: 2}
+  passivePoint: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40953fe8df68409889e69196b386f57f, type: 3}
+  m_Name: Temple_11_Upgrade_Multi_Volcanic
+  m_EditorClassIdentifier: 
+  _number: 11
+  _needed: 0a0000000c000000
+  _icon: {fileID: 21300000, guid: aa91cc76db354714c8b41b35ccd201dd, type: 3}
+  _upgradeName: Volcanic Temple
+  _maxLvl: 3
+  color: {r: 1, g: 1, b: 1, a: 1}
+  symbol: {fileID: 0}
+  Description: boost (x3) <sprite name=tech> & <sprite name=rage>productions while
+    reduce (x0.5) all <sprite name=air> & <sprite name=time> productions
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _upgrades:
+  - {fileID: 11400000, guid: 53230a21a9c48d846ab256123cf94cf4, type: 2}
+  - {fileID: 11400000, guid: d19cd6006d170474cb62b56d572da0d8, type: 2}

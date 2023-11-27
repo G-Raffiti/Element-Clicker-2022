@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9721e7711c2043feaf32223e95bd0d2d, type: 3}
+  m_Name: Temple_10_Upgrade_TownLvl
+  m_EditorClassIdentifier: 
+  _number: 10
+  _needed: 09000000050000000b000000
+  _icon: {fileID: 21300000, guid: 4a9e49c03a654774bbe0cc2078ef325a, type: 3}
+  _upgradeName: Town Level
+  _maxLvl: 99
+  color: {r: 1, g: 0.7529412, b: 0, a: 1}
+  symbol: {fileID: 0}
+  Description: 
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _productionForEachTownLvl:
+    list:
+    - Key: 8
+      Value: {x: 0, y: 1, z: 1.01}
+    - Key: 7
+      Value: {x: 0, y: 1, z: 1.01}
+    - Key: 6
+      Value: {x: 0, y: 1, z: 1.01}
+    - Key: 5
+      Value: {x: 0, y: 1, z: 1.01}
+    keyCollision: 0

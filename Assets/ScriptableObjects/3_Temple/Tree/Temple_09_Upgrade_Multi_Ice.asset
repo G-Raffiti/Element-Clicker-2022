@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40953fe8df68409889e69196b386f57f, type: 3}
+  m_Name: Temple_09_Upgrade_Multi_Ice
+  m_EditorClassIdentifier: 
+  _number: 9
+  _needed: 080000000a000000
+  _icon: {fileID: 21300000, guid: 9c8f5f95281931e4eb60cebbe5014886, type: 3}
+  _upgradeName: Glacial Temple
+  _maxLvl: 3
+  color: {r: 1, g: 1, b: 1, a: 1}
+  symbol: {fileID: 0}
+  Description: boost (x3) <sprite name=tech> & <sprite name=time>productions while
+    reduce (x0.5) all <sprite name=air> & <sprite name=rage> productions
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _upgrades:
+  - {fileID: 11400000, guid: 8f82e96a1daf274459994b1a2880a948, type: 2}
+  - {fileID: 11400000, guid: dd613d0980f00c64abfeba6814d60fad, type: 2}

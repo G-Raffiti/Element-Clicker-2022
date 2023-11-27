@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f183a4f15c9d42e692bdbde02ac94ddd, type: 3}
+  m_Name: Temple_04_Upgrade_Production_allX
+  m_EditorClassIdentifier: 
+  _number: 4
+  _needed: 0000000008000000
+  _icon: {fileID: 21300000, guid: d95c1eb2c8ce5ee4685fdaec816596a1, type: 3}
+  _upgradeName: Production/s x2
+  _maxLvl: 99
+  color: {r: 1, g: 0.7529412, b: 0, a: 1}
+  symbol: {fileID: 0}
+  Description: All productions /s are doubled
+  _addedCost:
+    list: []
+    keyCollision: 0
+  _productions:
+    list:
+    - Key: 5
+      Value: {x: 0, y: 2, z: 0}
+    - Key: 6
+      Value: {x: 0, y: 2, z: 0}
+    - Key: 8
+      Value: {x: 0, y: 2, z: 0}
+    - Key: 7
+      Value: {x: 0, y: 2, z: 0}
+    keyCollision: 0
