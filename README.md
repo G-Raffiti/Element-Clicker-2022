@@ -1,7 +1,7 @@
 # Elemental Clicker: Pathways of Power
- 
+ <p align="center">
 <img height="500" alt="Play on computer and see multiple Screen at once" src="/README_Files/Clicker2022-intro.gif" title="Element Clicker Intro">
-
+ </p>
 Introducing "Elemental Clicker: Pathways of Power", a captivating game inspired by the addictive mechanics of Cookie Clicker, but with a distinctive twist. Available across multiple platforms—PC, web, and mobile—this game offers players the choice of four primal Elements: Water, Fire, Earth, and Nature. Each Element presents a unique playstyle, fostering diverse strategic decisions that significantly impact gameplay.
 
 ### 🔥 Fire - The Element of Action:
@@ -18,5 +18,6 @@ Choose Nature's path, allowing your progression to ebb and flow like the wind. U
 
 In "Elemental Clicker: Pathways of Power" every choice matters. Select your Element wisely, adapt your strategies accordingly, and unlock the true potential of each Element’s unique abilities. Embrace the journey of discovery, where the elemental forces guide your progression, and success hinges upon your adaptability, planning, patience, or speed.
 
-<br>
+<p align="center">
 <img height="500" alt="Unlock new buildings" src="/README_Files/Clicker 2022 Unlock Building.gif" title="Element Clicker Unlock Buildings"/>
+</p>
